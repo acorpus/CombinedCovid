@@ -1,10 +1,9 @@
 # CombinedCovid
 This Repository contains a csv that is created by combining the COVID data provided by Johns Hopkins CSSE
-
-Link to original git:
+Link to original data:
 https://github.com/CSSEGISandData/COVID-19
 
-We specifically take the data from https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series and combine the three data sets for confirmed cases, deaths, and recovered. We do a pivot on this data so that each date with numbers for all three series are contained in one row. This allows for easier reporting and filtering. 
+We specifically take the data from https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series and combine the two data sets for confirmed cases and deaths. We do a pivot on this data so that each date with numbers for both series are contained in one row. This allows for easier reporting and filtering. 
 
 # Data Dictionary
 |Column|Datatype|Description|
