@@ -5,7 +5,7 @@ https://github.com/CSSEGISandData/COVID-19
 
 We specifically take the data from https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series and combine the two data sets for confirmed cases and deaths. We do a pivot on this data so that each date with numbers for both series are contained in one row. This allows for easier reporting and filtering.
 
-We have now added additional files that contain the US numbers. The Data is similar but there are several new fields in the US model that make the overall data set larger due to duplicating much of the static country data. As a fix we have created a Meta Data Table that contains the county specific data that can be joined with the COVID data on a per need basis. This drastically deduplicates the same data being written in every row. While the Original format from John Hopkins is in the best format from a size saving perspective this dataset is meant to be a function of both size and usability. 
+We have now added additional files that contain the US numbers. The Data is similar but there are several new fields in the US model that make the overall data set larger due to duplicating much of the static county data. As a fix we have created a Meta Data Table that contains the county specific data that can be joined with the COVID data on a per need basis. This drastically deduplicates the same data being written in every row. While the Original format from John Hopkins is in the best format from a size saving perspective this dataset is meant to be a function of both size and usability. 
 
 # Data Dictionary Global Covid Data
 |Column|Datatype|Description|
